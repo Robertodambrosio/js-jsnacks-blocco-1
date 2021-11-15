@@ -16,16 +16,16 @@
 
 // =========CON IL WHILE
 
-let i = 0;
-let somma = 0;
+// let i = 0;
+// let somma = 0;
 
-while (i < 5){
-    let numero = parseInt(prompt("inserisci un numero"));
-    console.log(numero);
-    somma += numero;
-    i++
-}
-    console.log("La somma dei numeri inseriti è " + somma);
+// while (i < 5){
+//     let numero = parseInt(prompt("inserisci un numero"));
+//     console.log(numero);
+//     somma += numero;
+//     i++
+// }
+//     console.log("La somma dei numeri inseriti è " + somma);
 
 
 
@@ -34,16 +34,16 @@ while (i < 5){
 // Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
 // Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
-// const word1 = prompt("Inserisci una parola");
-// const word2 = prompt("Inserisci una parola");
+ const word1 = prompt("Inserisci una parola");
+ const word2 = prompt("Inserisci una parola");
 
-// if (word1.length == word2.length) {
-//     console.log("Le parole hanno la stessa lunghezza: " + word1 + " " + word2)
-// } else if (word1.length > word2.length) {
-//     console.log("La parola più lunga è: " + word1);
-// } else {
-//     console.log("La parola più lunga è: " + word2);
-// }
+ if (word1.length == word2.length) {
+     console.log("Le parole hanno la stessa lunghezza: " + word1 + " " + word2)
+ } else if (word1.length > word2.length) {
+     console.log("La parola più lunga è: " + word1);
+ } else {
+     console.log("La parola più lunga è: " + word2);
+ }
 
 
 
