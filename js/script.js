@@ -49,3 +49,12 @@
 
 //=============================== JSnack 3
 // Stampa le potenze di 2 fino a 1000.
+
+
+// let pow = 1;
+// while (pow < 1000) {
+// console.log(pow);
+// pow = pow * 2;
+// }
+
+
