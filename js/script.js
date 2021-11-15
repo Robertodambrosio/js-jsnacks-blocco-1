@@ -5,27 +5,27 @@
 
 
 // =========CON IL FOR 
- let somma = 0;
+//  let somma = 0;
 
- for (let i = 0; i < 5; i++){
-     let numero = parseInt(prompt("inserisci un numero"));
-     console.log(numero);
-     somma += numero;
- }
-     console.log("La somma dei numeri inseriti è " + somma);
+//  for (let i = 0; i < 5; i++){
+//      let numero = parseInt(prompt("inserisci un numero"));
+//      console.log(numero);
+//      somma += numero;
+//  }
+//      console.log("La somma dei numeri inseriti è " + somma);
 
 // =========CON IL WHILE
 
-// let i = 0;
-// let somma = 0;
+let i = 0;
+let somma = 0;
 
-// while (i < 5){
-//     let numero = parseInt(prompt("inserisci un numero"));
-//     console.log(numero);
-//     somma += numero;
-//     i++
-// }
-//     console.log("La somma dei numeri inseriti è " + somma);
+while (i < 5){
+    let numero = parseInt(prompt("inserisci un numero"));
+    console.log(numero);
+    somma += numero;
+    i++
+}
+    console.log("La somma dei numeri inseriti è " + somma);
 
 
 
